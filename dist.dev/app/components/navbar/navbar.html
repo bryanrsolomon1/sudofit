@@ -1,0 +1,15 @@
+<md-toolbar id="navbar" layout>
+
+    <span id="logo">~$ sudo fit</span>
+
+    <span class="navbar-menu-item" ng-repeat="item in Navbar.menuItems" ui-sref="{{item.sref}}">
+        {{ item.name }}
+    </span>
+
+    <span flex></span>
+
+    <md-button id="order-now-button" class="md-warn md-raised">
+        Order Now
+    </md-button>
+
+</md-toolbar>
