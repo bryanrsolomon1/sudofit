@@ -2,7 +2,7 @@
 
     <span id="logo">~$ sudo fit</span>
 
-    <span class="navbar-menu-item" ng-repeat="item in Navbar.menuItems" ui-sref="{{item.sref}}">
+    <span class="navbar-menu-item" ng-repeat="item in Navbar.menuItems" ui-sref="{{item.sref}}" ng-click="Navbar.selectItem(item)" ng-class="{'active' : Navbar.selectedItem === item}">
         {{ item.name }}
     </span>
 

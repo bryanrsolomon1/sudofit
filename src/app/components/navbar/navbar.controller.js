@@ -11,6 +11,12 @@
         self.menuItems = menuItems();
         self.selectedItem = self.menuItems[0];
 
+        self.selectItem = selectItem;
+
+        function selectItem(item) {
+            self.selectedItem = item;
+        }
+
         function menuItems() {
             return [
                 {

@@ -1,3 +1,4 @@
-/*#page-photo {*/
-    /*height: 93vh;*/
-/*}*/
+#navbar {
+    height: 10vh;
+    position:fixed;
+}

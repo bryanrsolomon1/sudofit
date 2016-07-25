@@ -13,7 +13,7 @@
     cursor: pointer;
 }
 
-#navbar .navbar-menu-item:hover {
+#navbar .navbar-menu-item:hover, #navbar .navbar-menu-item.active {
     color: #6cc24a;
 }
 
